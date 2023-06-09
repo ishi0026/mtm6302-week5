@@ -71,6 +71,7 @@ scoreMessageList[1].innerHTML += doubleScores
 
 const totalDoubleScore = doubleScores.reduce((accumulator,score) => accumulator + score) //accumulator is just a name created, where are they come from?
 scoreMessageList[2].innerHTML += totalDoubleScore
+//accumulator　→　accumulator + score , at first, accumulator does not have anything
 
 
 for (let i = 0; i < 3; i++ ) {
