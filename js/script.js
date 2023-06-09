@@ -69,5 +69,6 @@ scoreMessageList[0].innerHTML += passingScores
 const doubleScores = scores.map(score => score *2)
 scoreMessageList[1].innerHTML += doubleScores
 
-const totalDoubleScores = doubleScores.reduce((accumulator,score) => accumulator + score) //accumulator is just a name created 
-scoreMessageList[2].innerHTML += totalDoubleScores
+const totalDoubleScore = doubleScores.reduce((accumulator,score) => accumulator + score) //accumulator is just a name created, where are they come from?
+scoreMessageList[2].innerHTML += totalDoubleScore
+
