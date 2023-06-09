@@ -30,9 +30,10 @@ messageList.children[6].innerHTML += myColors
 myColors.sort()
 messageList.children[7].innerHTML += myColors
 
-//concatination using concat
+//concatination using concat()
 const darkColors = ["darkseagreen","darkgreen","darkred"]
 
 const allColors = myColors.concat(darkColors)
-messageList.children[8].innerHTML += allColors
-
+// messageList.children[8].innerHTML += allColors
+messageList.children[8].innerHTML += allColors.join(" - ")
+// console.log(allColors)
