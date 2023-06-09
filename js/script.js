@@ -25,3 +25,14 @@ messageList.children[5].innerHTML += myColors
 
 myColors.splice(2,0,"royalblue")//adds, removes, and/or replace items anywhere in the array
 messageList.children[6].innerHTML += myColors
+
+//sorting array using sort() method, default for all lowercase text is ascending alphabetical
+myColors.sort()
+messageList.children[7].innerHTML += myColors
+
+//concatination using concat
+const darkColors = ["darkseagreen","darkgreen","darkred"]
+
+const allColors = myColors.concat(darkColors)
+messageList.children[8].innerHTML += allColors
+
