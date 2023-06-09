@@ -72,3 +72,17 @@ scoreMessageList[1].innerHTML += doubleScores
 const totalDoubleScore = doubleScores.reduce((accumulator,score) => accumulator + score) //accumulator is just a name created, where are they come from?
 scoreMessageList[2].innerHTML += totalDoubleScore
 
+
+for (let i = 0; i < 3; i++ ) {
+    console.log("ta")
+    for (let j = 0; j < 2; j++) {
+        console.log("ra")
+    }
+}
+// ((ta*1) + ra + ra) * 3
+
+const coloredBoxSection = document.getElementById("coloredBoxes")
+
+for (let color of allColors) {
+    coloredBoxSection.innerHTML += `<div class="box" style="background-color: ${color}"></div>`
+}
